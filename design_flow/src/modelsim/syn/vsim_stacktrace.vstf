@@ -1,0 +1,78 @@
+# Current time Mon May 11 15:33:48 2015
+# QuestaSim Stack Trace
+# Program = vsim
+# Id = "10.2b"
+# Version = "2013.05"
+# Date = "May 16 2013"
+# Platform = linux_x86_64
+# 0    0x0000000000721fe0: '<unknown (@0x721fe0)>'
+# 1    0x0000000000727d22: '<unknown (@0x727d22)>'
+# 2    0x00000000004f15c5: '<unknown (@0x4f15c5)>'
+# 3    0x00000000004f242c: '<unknown (@0x4f242c)>'
+# 4    0x0000000000436609: '<unknown (@0x436609)>'
+# 5    0x0000000000531f08: '<unknown (@0x531f08)>'
+# 6    0x00000000008b7e58: '<unknown (@0x8b7e58)>'
+# 7    0x00000000008b988e: '<unknown (@0x8b988e)>'
+# 8    0x0000000000ebcaef: '<unknown (@0xebcaef)>'
+# 9    0x0000000000ebdca9: '<unknown (@0xebdca9)>'
+# 10   0x0000000000f0046a: '<unknown (@0xf0046a)>'
+# 11   0x0000000000f08f9f: '<unknown (@0xf08f9f)>'
+# 12   0x0000000000ebefc3: '<unknown (@0xebefc3)>'
+# 13   0x0000000000ec9e54: '<unknown (@0xec9e54)>'
+# 14   0x0000000000ebdca9: '<unknown (@0xebdca9)>'
+# 15   0x0000000000f0046a: '<unknown (@0xf0046a)>'
+# 16   0x0000000000f092c0: '<unknown (@0xf092c0)>'
+# 17   0x0000000000ebc693: '<unknown (@0xebc693)>'
+# 18   0x0000000000ecf158: '<unknown (@0xecf158)>'
+# 19   0x0000000000ebdca9: '<unknown (@0xebdca9)>'
+# 20   0x0000000000ebe8f6: '<unknown (@0xebe8f6)>'
+# 21   0x0000000000ebec76: '<unknown (@0xebec76)>'
+# 22   0x0000000000bfc4dc: '<unknown (@0xbfc4dc)>'
+# 23   0x0000000000f19cc1: '<unknown (@0xf19cc1)>'
+# 24   0x0000000000f63051: '<unknown (@0xf63051)>'
+# 25   0x0000000000f2f77d: '<unknown (@0xf2f77d)>'
+# 26   0x0000000000f2fab5: '<unknown (@0xf2fab5)>'
+# 27   0x0000000000df2696: '<unknown (@0xdf2696)>'
+# 28   0x000000000089d17b: '<unknown (@0x89d17b)>'
+# End of Stack Trace
+
+
+# Current time Mon May 11 15:37:30 2015
+# QuestaSim Stack Trace
+# Program = vsim
+# Id = "10.2b"
+# Version = "2013.05"
+# Date = "May 16 2013"
+# Platform = linux_x86_64
+# 0    0x0000000000721fe0: '<unknown (@0x721fe0)>'
+# 1    0x0000000000727d22: '<unknown (@0x727d22)>'
+# 2    0x00000000004f15c5: '<unknown (@0x4f15c5)>'
+# 3    0x00000000004f242c: '<unknown (@0x4f242c)>'
+# 4    0x0000000000436609: '<unknown (@0x436609)>'
+# 5    0x0000000000531f08: '<unknown (@0x531f08)>'
+# 6    0x00000000008b7e58: '<unknown (@0x8b7e58)>'
+# 7    0x00000000008b988e: '<unknown (@0x8b988e)>'
+# 8    0x0000000000ebcaef: '<unknown (@0xebcaef)>'
+# 9    0x0000000000ebdca9: '<unknown (@0xebdca9)>'
+# 10   0x0000000000f0046a: '<unknown (@0xf0046a)>'
+# 11   0x0000000000f08f9f: '<unknown (@0xf08f9f)>'
+# 12   0x0000000000ebefc3: '<unknown (@0xebefc3)>'
+# 13   0x0000000000ec9e54: '<unknown (@0xec9e54)>'
+# 14   0x0000000000ebdca9: '<unknown (@0xebdca9)>'
+# 15   0x0000000000f0046a: '<unknown (@0xf0046a)>'
+# 16   0x0000000000f092c0: '<unknown (@0xf092c0)>'
+# 17   0x0000000000ebc693: '<unknown (@0xebc693)>'
+# 18   0x0000000000ecf158: '<unknown (@0xecf158)>'
+# 19   0x0000000000ebdca9: '<unknown (@0xebdca9)>'
+# 20   0x0000000000ebe8f6: '<unknown (@0xebe8f6)>'
+# 21   0x0000000000ebec76: '<unknown (@0xebec76)>'
+# 22   0x0000000000bfc4dc: '<unknown (@0xbfc4dc)>'
+# 23   0x0000000000f19cc1: '<unknown (@0xf19cc1)>'
+# 24   0x0000000000f63051: '<unknown (@0xf63051)>'
+# 25   0x0000000000f2f77d: '<unknown (@0xf2f77d)>'
+# 26   0x0000000000f2fab5: '<unknown (@0xf2fab5)>'
+# 27   0x0000000000df2696: '<unknown (@0xdf2696)>'
+# 28   0x000000000089d17b: '<unknown (@0x89d17b)>'
+# End of Stack Trace
+
+

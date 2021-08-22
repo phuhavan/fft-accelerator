@@ -1,0 +1,2 @@
+//INFOR -- Output data of 12-bit, 4-input FFT
+//INFOR -- Sample    Output data

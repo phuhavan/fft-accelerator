@@ -1,0 +1,4 @@
+//INFOR -- Coefficient of 12-bit, 4-input FFT
+//     IndexCoefficient data
+  0           2047     0
+  1              0 -2047

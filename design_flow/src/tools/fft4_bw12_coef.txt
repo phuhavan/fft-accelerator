@@ -1,0 +1,11 @@
+INFOR --- FFT size is 4
+INFOR --- Coefficient bitwidth is 12
+INFOR --- Number of coefficient is 2
+
+0    : +1.000000     +2047  011111111111  |  -0.00000        +0  000000000000
+1    : -1.000000     -2047  100000000001  |  -0.00000        +0  000000000000
+
+
+//--- Verilog code
+assign coef[0] = 24'b011111111111000000000000;
+assign coef[1] = 24'b100000000001000000000000;

@@ -1,0 +1,40 @@
+#********************************************************************************
+#
+#
+#		Created by: Tung Hoang
+#
+#
+#********************************************************************************
+
+Synopsys Reference Methodology (RM) Flow
+
+1) Code
+	./vclib/src
+			- Testbench files
+
+	./design_flow/src
+			- Verilog files of various FFT design
+
+	./design_flow/src/interconection
+			- VHDL files of various interconnection
+
+	./design_flow/src/tools
+			- Software implementation of FFT for generating testbench vector
+
+2) CAD flow
+	./design_flow/build/Makefrag
+			- Define library (lib, verilog) and clock constraint for synthesis
+
+	./design_flow/build/Makefile
+			- TOP makefile
+
+	./design_flow/build/dc-syn
+			- Synthesis folder
+
+	./design_flow/build/vcs-sim-rtl
+			- RTL verification
+
+	./design_flow/build/vcs-sim-gl-syn
+			- Post-synthesis gate netlist verification
+
+		

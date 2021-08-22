@@ -1,0 +1,36 @@
+# //  Questa Sim-64
+# //  Version 10.2b linux_x86_64 May 16 2013
+# //
+# //  Copyright 1991-2013 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# vsim work.fftTestBench 
+# Loading work.fftTestBench
+# Loading work.vcReadFile
+# Loading work.vcWriteFile
+# Loading work.vcClockGen
+# Loading work.fft4
+# Loading work.fifo
+# Loading work.radix2
+# Loading work.scaled_add
+# Loading work.scaled_sub
+# Loading work.unscaled_mult
+do fft.do
+run -all
+# INFOR --- File input_fft4.txt is opened
+# INFOR --- Skip two first comment lines
+# ==============================
+# INFOR --- Clock period = 3.300 ns
+# ==============================
+# INFOR --- Using ModelSim simulator
+# WARNS --- Generate VCD file !
+# INFOR --- Simulation is finished at cycle           106
+# INFOR --- CLOCK_PERIOD:                          3.300
+# ** Note: $finish    : ../../fftTestBench.v(334)
+#    Time: 354750 ps  Iteration: 1  Instance: /fftTestBench
+# 1
+# Break in Module fftTestBench at ../../fftTestBench.v line 334

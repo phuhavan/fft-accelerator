@@ -1,0 +1,943 @@
+/home/hoangt/RESEARCH/CADTOOLS/TECHNOLOGY/compact_saed32nm/lib/sram/verilog/saed32sram.v {2 {vlog -work work -vopt /home/hoangt/RESEARCH/CADTOOLS/TECHNOLOGY/compact_saed32nm/lib/sram/verilog/saed32sram.v
+QuestaSim-64 vlog 10.2b Compiler 2013.05 May 16 2013
+-- Compiling module SRAM1RW1024x8
+-- Compiling module SRAM1RW1024x8_1bit
+** Warning: /home/hoangt/RESEARCH/CADTOOLS/TECHNOLOGY/compact_saed32nm/lib/sram/verilog/saed32sram.v(101): (vlog-2263) Redefinition of macro: numAddr.
+** Warning: /home/hoangt/RESEARCH/CADTOOLS/TECHNOLOGY/compact_saed32nm/lib/sram/verilog/saed32sram.v(102): (vlog-2263) Redefinition of macro: numWords.
+** Warning: /home/hoangt/RESEARCH/CADTOOLS/TECHNOLOGY/compact_saed32nm/lib/sram/verilog/saed32sram.v(103): (vlog-2263) Redefinition of macro: wordLength.
+-- Compiling module SRAM1RW128x46
+-- Compiling module SRAM1RW128x46_1bit
+** Warning: /home/hoangt/RESEARCH/CADTOOLS/TECHNOLOGY/compact_saed32nm/lib/sram/verilog/saed32sram.v(229): (vlog-2263) Redefinition of macro: wordLength.
+-- Compiling module SRAM1RW128x48
+-- Compiling module SRAM1RW128x48_1bit
+** Warning: /home/hoangt/RESEARCH/CADTOOLS/TECHNOLOGY/compact_saed32nm/lib/sram/verilog/saed32sram.v(357): (vlog-2263) Redefinition of macro: wordLength.
+-- Compiling module SRAM1RW128x8
+-- Compiling module SRAM1RW128x8_1bit
+** Warning: /home/hoangt/RESEARCH/CADTOOLS/TECHNOLOGY/compact_saed32nm/lib/sram/verilog/saed32sram.v(443): (vlog-2263) Redefinition of macro: numAddr.
+** Warning: /home/hoangt/RESEARCH/CADTOOLS/TECHNOLOGY/compact_saed32nm/lib/sram/verilog/saed32sram.v(444): (vlog-2263) Redefinition of macro: numWords.
+** Warning: /home/hoangt/RESEARCH/CADTOOLS/TECHNOLOGY/compact_saed32nm/lib/sram/verilog/saed32sram.v(445): (vlog-2263) Redefinition of macro: wordLength.
+-- Compiling module SRAM1RW256x128
+-- Compiling module SRAM1RW256x128_1bit
+** Warning: /home/hoangt/RESEARCH/CADTOOLS/TECHNOLOGY/compact_saed32nm/lib/sram/verilog/saed32sram.v(653): (vlog-2263) Redefinition of macro: wordLength.
+-- Compiling module SRAM1RW256x32
+-- Compiling module SRAM1RW256x32_1bit
+** Warning: /home/hoangt/RESEARCH/CADTOOLS/TECHNOLOGY/compact_saed32nm/lib/sram/verilog/saed32sram.v(765): (vlog-2263) Redefinition of macro: wordLength.
+-- Compiling module SRAM1RW256x46
+-- Compiling module SRAM1RW256x46_1bit
+** Warning: /home/hoangt/RESEARCH/CADTOOLS/TECHNOLOGY/compact_saed32nm/lib/sram/verilog/saed32sram.v(891): (vlog-2263) Redefinition of macro: wordLength.
+-- Compiling module SRAM1RW256x48
+-- Compiling module SRAM1RW256x48_1bit
+** Warning: /home/hoangt/RESEARCH/CADTOOLS/TECHNOLOGY/compact_saed32nm/lib/sram/verilog/saed32sram.v(1019): (vlog-2263) Redefinition of macro: wordLength.
+-- Compiling module SRAM1RW256x8
+-- Compiling module SRAM1RW256x8_1bit
+** Warning: /home/hoangt/RESEARCH/CADTOOLS/TECHNOLOGY/compact_saed32nm/lib/sram/verilog/saed32sram.v(1105): (vlog-2263) Redefinition of macro: numAddr.
+** Warning: /home/hoangt/RESEARCH/CADTOOLS/TECHNOLOGY/compact_saed32nm/lib/sram/verilog/saed32sram.v(1106): (vlog-2263) Redefinition of macro: numWords.
+** Warning: /home/hoangt/RESEARCH/CADTOOLS/TECHNOLOGY/compact_saed32nm/lib/sram/verilog/saed32sram.v(1107): (vlog-2263) Redefinition of macro: wordLength.
+-- Compiling module SRAM1RW32x50
+-- Compiling module SRAM1RW32x50_1bit
+** Warning: /home/hoangt/RESEARCH/CADTOOLS/TECHNOLOGY/compact_saed32nm/lib/sram/verilog/saed32sram.v(1235): (vlog-2263) Redefinition of macro: numAddr.
+** Warning: /home/hoangt/RESEARCH/CADTOOLS/TECHNOLOGY/compact_saed32nm/lib/sram/verilog/saed32sram.v(1236): (vlog-2263) Redefinition of macro: numWords.
+** Warning: /home/hoangt/RESEARCH/CADTOOLS/TECHNOLOGY/compact_saed32nm/lib/sram/verilog/saed32sram.v(1237): (vlog-2263) Redefinition of macro: wordLength.
+-- Compiling module SRAM1RW512x128
+-- Compiling module SRAM1RW512x128_1bit
+** Warning: /home/hoangt/RESEARCH/CADTOOLS/TECHNOLOGY/compact_saed32nm/lib/sram/verilog/saed32sram.v(1445): (vlog-2263) Redefinition of macro: wordLength.
+-- Compiling module SRAM1RW512x32
+-- Compiling module SRAM1RW512x32_1bit
+** Warning: /home/hoangt/RESEARCH/CADTOOLS/TECHNOLOGY/compact_saed32nm/lib/sram/verilog/saed32sram.v(1557): (vlog-2263) Redefinition of macro: wordLength.
+-- Compiling module SRAM1RW512x8
+-- Compiling module SRAM1RW512x8_1bit
+** Warning: /home/hoangt/RESEARCH/CADTOOLS/TECHNOLOGY/compact_saed32nm/lib/sram/verilog/saed32sram.v(1643): (vlog-2263) Redefinition of macro: numAddr.
+** Warning: /home/hoangt/RESEARCH/CADTOOLS/TECHNOLOGY/compact_saed32nm/lib/sram/verilog/saed32sram.v(1644): (vlog-2263) Redefinition of macro: numWords.
+** Warning: /home/hoangt/RESEARCH/CADTOOLS/TECHNOLOGY/compact_saed32nm/lib/sram/verilog/saed32sram.v(1645): (vlog-2263) Redefinition of macro: wordLength.
+-- Compiling module SRAM1RW64x128
+-- Compiling module SRAM1RW64x128_1bit
+** Warning: /home/hoangt/RESEARCH/CADTOOLS/TECHNOLOGY/compact_saed32nm/lib/sram/verilog/saed32sram.v(1853): (vlog-2263) Redefinition of macro: wordLength.
+-- Compiling module SRAM1RW64x32
+-- Compiling module SRAM1RW64x32_1bit
+** Warning: /home/hoangt/RESEARCH/CADTOOLS/TECHNOLOGY/compact_saed32nm/lib/sram/verilog/saed32sram.v(1965): (vlog-2263) Redefinition of macro: wordLength.
+-- Compiling module SRAM1RW64x34
+-- Compiling module SRAM1RW64x34_1bit
+** Warning: /home/hoangt/RESEARCH/CADTOOLS/TECHNOLOGY/compact_saed32nm/lib/sram/verilog/saed32sram.v(2079): (vlog-2263) Redefinition of macro: wordLength.
+-- Compiling module SRAM1RW64x8
+-- Compiling module SRAM1RW64x8_1bit
+** Warning: /home/hoangt/RESEARCH/CADTOOLS/TECHNOLOGY/compact_saed32nm/lib/sram/verilog/saed32sram.v(2165): (vlog-2263) Redefinition of macro: numAddr.
+** Warning: /home/hoangt/RESEARCH/CADTOOLS/TECHNOLOGY/compact_saed32nm/lib/sram/verilog/saed32sram.v(2166): (vlog-2263) Redefinition of macro: numWords.
+** Warning: /home/hoangt/RESEARCH/CADTOOLS/TECHNOLOGY/compact_saed32nm/lib/sram/verilog/saed32sram.v(2167): (vlog-2263) Redefinition of macro: wordLength.
+-- Compiling module SRAM2RW128x16
+-- Compiling module SRAM2RW128x16_1bit
+** Warning: /home/hoangt/RESEARCH/CADTOOLS/TECHNOLOGY/compact_saed32nm/lib/sram/verilog/saed32sram.v(2288): (vlog-2263) Redefinition of macro: wordLength.
+-- Compiling module SRAM2RW128x32
+-- Compiling module SRAM2RW128x32_1bit
+** Warning: /home/hoangt/RESEARCH/CADTOOLS/TECHNOLOGY/compact_saed32nm/lib/sram/verilog/saed32sram.v(2425): (vlog-2263) Redefinition of macro: wordLength.
+-- Compiling module SRAM2RW128x4
+-- Compiling module SRAM2RW128x4_1bit
+** Warning: /home/hoangt/RESEARCH/CADTOOLS/TECHNOLOGY/compact_saed32nm/lib/sram/verilog/saed32sram.v(2534): (vlog-2263) Redefinition of macro: wordLength.
+-- Compiling module SRAM2RW128x8
+-- Compiling module SRAM2RW128x8_1bit
+** Warning: /home/hoangt/RESEARCH/CADTOOLS/TECHNOLOGY/compact_saed32nm/lib/sram/verilog/saed32sram.v(2645): (vlog-2263) Redefinition of macro: numAddr.
+** Warning: /home/hoangt/RESEARCH/CADTOOLS/TECHNOLOGY/compact_saed32nm/lib/sram/verilog/saed32sram.v(2646): (vlog-2263) Redefinition of macro: numWords.
+** Warning: /home/hoangt/RESEARCH/CADTOOLS/TECHNOLOGY/compact_saed32nm/lib/sram/verilog/saed32sram.v(2647): (vlog-2263) Redefinition of macro: wordLength.
+-- Compiling module SRAM2RW16x16
+-- Compiling module SRAM2RW16x16_1bit
+** Warning: /home/hoangt/RESEARCH/CADTOOLS/TECHNOLOGY/compact_saed32nm/lib/sram/verilog/saed32sram.v(2768): (vlog-2263) Redefinition of macro: wordLength.
+-- Compiling module SRAM2RW16x32
+-- Compiling module SRAM2RW16x32_1bit
+** Warning: /home/hoangt/RESEARCH/CADTOOLS/TECHNOLOGY/compact_saed32nm/lib/sram/verilog/saed32sram.v(2905): (vlog-2263) Redefinition of macro: wordLength.
+-- Compiling module SRAM2RW16x4
+-- Compiling module SRAM2RW16x4_1bit
+** Warning: /home/hoangt/RESEARCH/CADTOOLS/TECHNOLOGY/compact_saed32nm/lib/sram/verilog/saed32sram.v(3014): (vlog-2263) Redefinition of macro: wordLength.
+-- Compiling module SRAM2RW16x8
+-- Compiling module SRAM2RW16x8_1bit
+** Warning: /home/hoangt/RESEARCH/CADTOOLS/TECHNOLOGY/compact_saed32nm/lib/sram/verilog/saed32sram.v(3125): (vlog-2263) Redefinition of macro: numAddr.
+** Warning: /home/hoangt/RESEARCH/CADTOOLS/TECHNOLOGY/compact_saed32nm/lib/sram/verilog/saed32sram.v(3126): (vlog-2263) Redefinition of macro: numWords.
+** Warning: /home/hoangt/RESEARCH/CADTOOLS/TECHNOLOGY/compact_saed32nm/lib/sram/verilog/saed32sram.v(3127): (vlog-2263) Redefinition of macro: wordLength.
+-- Compiling module SRAM2RW32x16
+-- Compiling module SRAM2RW32x16_1bit
+** Warning: /home/hoangt/RESEARCH/CADTOOLS/TECHNOLOGY/compact_saed32nm/lib/sram/verilog/saed32sram.v(3248): (vlog-2263) Redefinition of macro: wordLength.
+-- Compiling module SRAM2RW32x22
+-- Compiling module SRAM2RW32x22_1bit
+** Warning: /home/hoangt/RESEARCH/CADTOOLS/TECHNOLOGY/compact_saed32nm/lib/sram/verilog/saed32sram.v(3375): (vlog-2263) Redefinition of macro: wordLength.
+-- Compiling module SRAM2RW32x32
+-- Compiling module SRAM2RW32x32_1bit
+** Warning: /home/hoangt/RESEARCH/CADTOOLS/TECHNOLOGY/compact_saed32nm/lib/sram/verilog/saed32sram.v(3512): (vlog-2263) Redefinition of macro: wordLength.
+-- Compiling module SRAM2RW32x39
+-- Compiling module SRAM2RW32x39_1bit
+** Warning: /home/hoangt/RESEARCH/CADTOOLS/TECHNOLOGY/compact_saed32nm/lib/sram/verilog/saed32sram.v(3656): (vlog-2263) Redefinition of macro: wordLength.
+-- Compiling module SRAM2RW32x4
+-- Compiling module SRAM2RW32x4_1bit
+** Warning: /home/hoangt/RESEARCH/CADTOOLS/TECHNOLOGY/compact_saed32nm/lib/sram/verilog/saed32sram.v(3765): (vlog-2263) Redefinition of macro: wordLength.
+-- Compiling module SRAM2RW32x8
+-- Compiling module SRAM2RW32x8_1bit
+** Warning: /home/hoangt/RESEARCH/CADTOOLS/TECHNOLOGY/compact_saed32nm/lib/sram/verilog/saed32sram.v(3876): (vlog-2263) Redefinition of macro: numAddr.
+** Warning: /home/hoangt/RESEARCH/CADTOOLS/TECHNOLOGY/compact_saed32nm/lib/sram/verilog/saed32sram.v(3877): (vlog-2263) Redefinition of macro: numWords.
+** Warning: /home/hoangt/RESEARCH/CADTOOLS/TECHNOLOGY/compact_saed32nm/lib/sram/verilog/saed32sram.v(3878): (vlog-2263) Redefinition of macro: wordLength.
+-- Compiling module SRAM2RW64x16
+-- Compiling module SRAM2RW64x16_1bit
+** Warning: /home/hoangt/RESEARCH/CADTOOLS/TECHNOLOGY/compact_saed32nm/lib/sram/verilog/saed32sram.v(3999): (vlog-2263) Redefinition of macro: wordLength.
+-- Compiling module SRAM2RW64x32
+-- Compiling module SRAM2RW64x32_1bit
+** Warning: /home/hoangt/RESEARCH/CADTOOLS/TECHNOLOGY/compact_saed32nm/lib/sram/verilog/saed32sram.v(4136): (vlog-2263) Redefinition of macro: wordLength.
+-- Compiling module SRAM2RW64x4
+-- Compiling module SRAM2RW64x4_1bit
+** Warning: /home/hoangt/RESEARCH/CADTOOLS/TECHNOLOGY/compact_saed32nm/lib/sram/verilog/saed32sram.v(4245): (vlog-2263) Redefinition of macro: wordLength.
+-- Compiling module SRAM2RW64x8
+-- Compiling module SRAM2RW64x8_1bit
+
+Top level modules:
+	SRAM1RW1024x8
+	SRAM1RW128x46
+	SRAM1RW128x48
+	SRAM1RW128x8
+	SRAM1RW256x128
+	SRAM1RW256x32
+	SRAM1RW256x46
+	SRAM1RW256x48
+	SRAM1RW256x8
+	SRAM1RW32x50
+	SRAM1RW512x128
+	SRAM1RW512x32
+	SRAM1RW512x8
+	SRAM1RW64x128
+	SRAM1RW64x32
+	SRAM1RW64x34
+	SRAM1RW64x8
+	SRAM2RW128x16
+	SRAM2RW128x32
+	SRAM2RW128x4
+	SRAM2RW128x8
+	SRAM2RW16x16
+	SRAM2RW16x32
+	SRAM2RW16x4
+	SRAM2RW16x8
+	SRAM2RW32x16
+	SRAM2RW32x22
+	SRAM2RW32x32
+	SRAM2RW32x39
+	SRAM2RW32x4
+	SRAM2RW32x8
+	SRAM2RW64x16
+	SRAM2RW64x32
+	SRAM2RW64x4
+	SRAM2RW64x8
+
+} {} {}} /home/hoangt/RESEARCH/EDABK/WORK/FFTAccelerator/design_flow/src/vclib/vcFileAccess.v {1 {vlog -work work -novopt +incdir+/home/hoangt/RESEARCH/EDABK/WORK/FFTAccelerator/design_flow/src /home/hoangt/RESEARCH/EDABK/WORK/FFTAccelerator/vclib/src/vcFileAccess.v
+QuestaSim-64 vlog 10.2b Compiler 2013.05 May 16 2013
+-- Compiling module vcReadFile
+-- Compiling module vcWriteFile
+-- Compiling module vcFileAccess
+
+Top level modules:
+	vcFileAccess
+
+} {} {}} /home/hoangt/RESEARCH/EDABK/WORK/FFTAccelerator/design_flow/src/vclib/vcClockGen.v {1 {vlog -work work -novopt +incdir+/home/hoangt/RESEARCH/EDABK/WORK/FFTAccelerator/design_flow/src /home/hoangt/RESEARCH/EDABK/WORK/FFTAccelerator/vclib/src/vcClockGen.v
+QuestaSim-64 vlog 10.2b Compiler 2013.05 May 16 2013
+-- Compiling module vcClockGen
+
+Top level modules:
+	vcClockGen
+
+} {} {}} /home/hoangt/RESEARCH/EDABK/WORK/FFTAccelerator/design_flow/src/tmem.v {1 {vlog -work work -vopt /home/hoangt/RESEARCH/EDABK/WORK/FFTAccelerator/design_flow/src/tmem.v
+QuestaSim-64 vlog 10.2b Compiler 2013.05 May 16 2013
+-- Compiling module tmem
+
+Top level modules:
+	tmem
+
+} {} {}} /home/hoangt/RESEARCH/EDABK/WORK/FFTAccelerator/design_flow/src/localmemTestBench_rtl.v {0 {vlog -work work -vopt +incdir+/home/hoangt/RESEARCH/EDABK/WORK/FFTAccelerator/design_flow/src /home/hoangt/RESEARCH/EDABK/WORK/FFTAccelerator/design_flow/src/localmemTestBench_rtl.v
+QuestaSim-64 vlog 10.2b Compiler 2013.05 May 16 2013
+-- Compiling module localmemTestBench
+** Error: /home/hoangt/RESEARCH/EDABK/WORK/FFTAccelerator/design_flow/src/localmemTestBench_rtl.v(455): near "$finish": syntax error, unexpected SYSTEM_IDENTIFIER
+
+} {4.0 5.0} {}} /home/hoangt/RESEARCH/EDABK/WORK/FFTAccelerator/design_flow/src/dmem.v {1 {vlog -work work -vopt /home/hoangt/RESEARCH/EDABK/WORK/FFTAccelerator/design_flow/src/dmem.v
+QuestaSim-64 vlog 10.2b Compiler 2013.05 May 16 2013
+-- Compiling module dmem
+
+Top level modules:
+	dmem
+
+} {} {}} /home/hoangt/RESEARCH/EDABK/WORK/FFTAccelerator/design_flow/src/fifo.v {1 {vlog -work work -novopt /home/hoangt/RESEARCH/EDABK/WORK/FFTAccelerator/design_flow/src/fifo.v
+QuestaSim-64 vlog 10.2b Compiler 2013.05 May 16 2013
+-- Compiling module fifo
+
+Top level modules:
+	fifo
+
+} {} {}} /home/hoangt/RESEARCH/CADTOOLS/TECHNOLOGY/compact_saed32nm/lib/stdcell_hvt/verilog/saed32nm_hvt.v {1 {vlog -work work -novopt /home/hoangt/RESEARCH/CADTOOLS/TECHNOLOGY/compact_saed32nm/lib/stdcell_hvt/verilog/saed32nm_hvt.v
+QuestaSim-64 vlog 10.2b Compiler 2013.05 May 16 2013
+-- Compiling module AND2X1_HVT
+-- Compiling module AND2X2_HVT
+-- Compiling module AND2X4_HVT
+-- Compiling module AND3X1_HVT
+-- Compiling module AND3X2_HVT
+-- Compiling module AND3X4_HVT
+-- Compiling module AND4X1_HVT
+-- Compiling module AND4X2_HVT
+-- Compiling module AND4X4_HVT
+-- Compiling module ANTENNA_HVT
+-- Compiling module AO21X1_HVT
+-- Compiling module AO21X2_HVT
+-- Compiling module AO221X1_HVT
+-- Compiling module AO221X2_HVT
+-- Compiling module AO222X1_HVT
+-- Compiling module AO222X2_HVT
+-- Compiling module AO22X1_HVT
+-- Compiling module AO22X2_HVT
+-- Compiling module AOBUFX1_HVT
+-- Compiling module AOBUFX2_HVT
+-- Compiling module AOBUFX4_HVT
+-- Compiling module AODFFARX1_HVT
+-- Compiling UDP s_aodffarx1_Q__HVT
+-- Compiling module AODFFARX2_HVT
+-- Compiling UDP s_aodffarx2_Q__HVT
+-- Compiling module AODFFNARX1_HVT
+-- Compiling UDP s_aodffnarx1_Q__HVT
+-- Compiling module AODFFNARX2_HVT
+-- Compiling UDP s_aodffnarx2_Q__HVT
+-- Compiling module AOI21X1_HVT
+-- Compiling module AOI21X2_HVT
+-- Compiling module AOI221X1_HVT
+-- Compiling module AOI221X2_HVT
+-- Compiling module AOI222X1_HVT
+-- Compiling module AOI222X2_HVT
+-- Compiling module AOI22X1_HVT
+-- Compiling module AOI22X2_HVT
+-- Compiling module AOINVX1_HVT
+-- Compiling module AOINVX2_HVT
+-- Compiling module AOINVX4_HVT
+-- Compiling module BSLEX1_HVT
+-- Compiling module BSLEX2_HVT
+-- Compiling module BSLEX4_HVT
+-- Compiling module BUSKP_HVT
+-- Compiling module CGLNPRX2_HVT
+-- Compiling module CGLNPRX8_HVT
+-- Compiling module CGLNPSX16_HVT
+-- Compiling module CGLNPSX2_HVT
+-- Compiling module CGLNPSX4_HVT
+-- Compiling module CGLNPSX8_HVT
+-- Compiling module CGLPPRX2_HVT
+-- Compiling module CGLPPRX8_HVT
+-- Compiling module CGLPPSX16_HVT
+-- Compiling module CGLPPSX2_HVT
+-- Compiling module CGLPPSX4_HVT
+-- Compiling module CGLPPSX8_HVT
+-- Compiling module CLOAD1_HVT
+-- Compiling module DCAP_HVT
+-- Compiling module DEC24X1_HVT
+-- Compiling UDP s_dec24x1_Q3__HVT
+-- Compiling UDP s_dec24x1_Q2__HVT
+-- Compiling UDP s_dec24x1_Q1__HVT
+-- Compiling UDP s_dec24x1_Q0__HVT
+-- Compiling module DEC24X2_HVT
+-- Compiling UDP s_dec24x2_Q3__HVT
+-- Compiling UDP s_dec24x2_Q2__HVT
+-- Compiling UDP s_dec24x2_Q1__HVT
+-- Compiling UDP s_dec24x2_Q0__HVT
+-- Compiling module DELLN1X2_HVT
+-- Compiling module DELLN2X2_HVT
+-- Compiling module DELLN3X2_HVT
+-- Compiling module DFFARX1_HVT
+-- Compiling module DFFARX2_HVT
+-- Compiling module DFFASRX1_HVT
+-- Compiling module DFFASRX2_HVT
+-- Compiling module DFFASX1_HVT
+-- Compiling module DFFASX2_HVT
+-- Compiling module DFFNARX1_HVT
+-- Compiling module DFFNARX2_HVT
+-- Compiling module DFFNASRNX1_HVT
+-- Compiling module DFFNASRNX2_HVT
+-- Compiling module DFFNASRQX1_HVT
+-- Compiling module DFFNASRQX2_HVT
+-- Compiling module DFFNASRX1_HVT
+-- Compiling module DFFNASRX2_HVT
+-- Compiling module DFFNASX1_HVT
+-- Compiling module DFFNASX2_HVT
+-- Compiling module DFFNX1_HVT
+-- Compiling module DFFNX2_HVT
+-- Compiling module DFFSSRX1_HVT
+-- Compiling module DFFSSRX2_HVT
+-- Compiling module DFFX1_HVT
+-- Compiling module DFFX2_HVT
+-- Compiling module DHFILLH2_HVT
+-- Compiling module DHFILLHLHLS11_HVT
+-- Compiling module DHFILLHL2_HVT
+-- Compiling module FADDX1_HVT
+-- Compiling UDP s_faddx1_S__HVT
+-- Compiling UDP s_faddx1_CO__HVT
+-- Compiling module FADDX2_HVT
+-- Compiling UDP s_faddx2_S__HVT
+-- Compiling UDP s_faddx2_CO__HVT
+-- Compiling module HADDX1_HVT
+-- Compiling module HADDX2_HVT
+-- Compiling module FOOT2X16_HVT
+-- Compiling module FOOT2X2_HVT
+-- Compiling module FOOT2X32_HVT
+-- Compiling module FOOT2X4_HVT
+-- Compiling module FOOT2X8_HVT
+-- Compiling module FOOTX16_HVT
+-- Compiling module FOOTX2_HVT
+-- Compiling module FOOTX32_HVT
+-- Compiling module FOOTX4_HVT
+-- Compiling module FOOTX8_HVT
+-- Compiling module HEAD2X16_HVT
+-- Compiling module HEAD2X2_HVT
+-- Compiling module HEAD2X32_HVT
+-- Compiling module HEAD2X4_HVT
+-- Compiling module HEAD2X8_HVT
+-- Compiling module HEADX16_HVT
+-- Compiling module HEADX2_HVT
+-- Compiling module HEADX32_HVT
+-- Compiling module HEADX4_HVT
+-- Compiling module HEADX8_HVT
+-- Compiling module IBUFFX16_HVT
+-- Compiling module IBUFFX2_HVT
+-- Compiling module IBUFFX32_HVT
+-- Compiling module IBUFFX4_HVT
+-- Compiling module IBUFFX8_HVT
+-- Compiling module INVX0_HVT
+-- Compiling module INVX16_HVT
+-- Compiling module INVX1_HVT
+-- Compiling module INVX2_HVT
+-- Compiling module INVX32_HVT
+-- Compiling module INVX4_HVT
+-- Compiling module INVX8_HVT
+-- Compiling module ISOLANDX1_HVT
+-- Compiling module ISOLANDX2_HVT
+-- Compiling module ISOLANDX4_HVT
+-- Compiling module ISOLANDX8_HVT
+-- Compiling module ISOLORX1_HVT
+-- Compiling module ISOLORX2_HVT
+-- Compiling module ISOLORX4_HVT
+-- Compiling module ISOLORX8_HVT
+-- Compiling module ISOLANDAOX1_HVT
+-- Compiling module ISOLANDAOX2_HVT
+-- Compiling module ISOLANDAOX4_HVT
+-- Compiling module ISOLANDAOX8_HVT
+-- Compiling module ISOLORAOX1_HVT
+-- Compiling module ISOLORAOX2_HVT
+-- Compiling module ISOLORAOX4_HVT
+-- Compiling module ISOLORAOX8_HVT
+-- Compiling module LARX1_HVT
+-- Compiling module LARX2_HVT
+-- Compiling module LASRNX1_HVT
+-- Compiling module LASRNX2_HVT
+-- Compiling module LASRQX1_HVT
+-- Compiling module LASRQX2_HVT
+-- Compiling module LASRX1_HVT
+-- Compiling module LASRX2_HVT
+-- Compiling module LASX1_HVT
+-- Compiling module LASX2_HVT
+-- Compiling module LATCHX1_HVT
+-- Compiling module LATCHX2_HVT
+-- Compiling module LNANDX1_HVT
+-- Compiling module LNANDX2_HVT
+-- Compiling module LSDNENX1_HVT
+-- Compiling module LSDNENX2_HVT
+-- Compiling module LSDNENX4_HVT
+-- Compiling module LSDNENX8_HVT
+-- Compiling module LSDNENCLX1_HVT
+-- Compiling module LSDNENCLX2_HVT
+-- Compiling module LSDNENCLX4_HVT
+-- Compiling module LSDNENCLX8_HVT
+-- Compiling module LSDNENCLSSX1_HVT
+-- Compiling module LSDNENCLSSX2_HVT
+-- Compiling module LSDNENCLSSX4_HVT
+-- Compiling module LSDNENCLSSX8_HVT
+-- Compiling module LSDNENSSX1_HVT
+-- Compiling module LSDNENSSX2_HVT
+-- Compiling module LSDNENSSX4_HVT
+-- Compiling module LSDNENSSX8_HVT
+-- Compiling module LSDNSSX1_HVT
+-- Compiling module LSDNSSX2_HVT
+-- Compiling module LSDNSSX4_HVT
+-- Compiling module LSDNSSX8_HVT
+-- Compiling module LSDNX1_HVT
+-- Compiling module LSDNX2_HVT
+-- Compiling module LSDNX4_HVT
+-- Compiling module LSDNX8_HVT
+-- Compiling module LSUPENX1_HVT
+-- Compiling module LSUPENX2_HVT
+-- Compiling module LSUPENX4_HVT
+-- Compiling module LSUPENX8_HVT
+-- Compiling module LSUPENCLX1_HVT
+-- Compiling module LSUPENCLX2_HVT
+-- Compiling module LSUPENCLX4_HVT
+-- Compiling module LSUPENCLX8_HVT
+-- Compiling module LSUPX1_HVT
+-- Compiling module LSUPX2_HVT
+-- Compiling module LSUPX4_HVT
+-- Compiling module LSUPX8_HVT
+-- Compiling module MUX21X1_HVT
+-- Compiling UDP s_mux21x1__HVT
+-- Compiling module MUX21X2_HVT
+-- Compiling UDP s_mux21x2__HVT
+-- Compiling module MUX41X1_HVT
+-- Compiling UDP s_mux41x1__HVT
+-- Compiling module MUX41X2_HVT
+-- Compiling UDP s_mux41x2__HVT
+-- Compiling module NAND2X0_HVT
+-- Compiling module NAND2X1_HVT
+-- Compiling module NAND2X2_HVT
+-- Compiling module NAND2X4_HVT
+-- Compiling module NAND3X0_HVT
+-- Compiling module NAND3X1_HVT
+-- Compiling module NAND3X2_HVT
+-- Compiling module NAND3X4_HVT
+-- Compiling module NAND4X0_HVT
+-- Compiling module NAND4X1_HVT
+-- Compiling module NBUFFX16_HVT
+-- Compiling module NBUFFX2_HVT
+-- Compiling module NBUFFX32_HVT
+-- Compiling module NBUFFX4_HVT
+-- Compiling module NBUFFX8_HVT
+-- Compiling module NMT1_HVT
+-- Compiling module NMT2_HVT
+-- Compiling module NMT3_HVT
+-- Compiling module NOR2X0_HVT
+-- Compiling module NOR2X1_HVT
+-- Compiling module NOR2X2_HVT
+-- Compiling module NOR2X4_HVT
+-- Compiling module NOR3X0_HVT
+-- Compiling module NOR3X1_HVT
+-- Compiling module NOR3X2_HVT
+-- Compiling module NOR3X4_HVT
+-- Compiling module NOR4X0_HVT
+-- Compiling module NOR4X1_HVT
+-- Compiling module OA21X1_HVT
+-- Compiling module OA21X2_HVT
+-- Compiling module OA221X1_HVT
+-- Compiling module OA221X2_HVT
+-- Compiling module OA222X1_HVT
+-- Compiling module OA222X2_HVT
+-- Compiling module OA22X1_HVT
+-- Compiling module OA22X2_HVT
+-- Compiling module OAI21X1_HVT
+-- Compiling module OAI21X2_HVT
+-- Compiling module OAI221X1_HVT
+-- Compiling module OAI221X2_HVT
+-- Compiling module OAI222X1_HVT
+-- Compiling module OAI222X2_HVT
+-- Compiling module OAI22X1_HVT
+-- Compiling module OAI22X2_HVT
+-- Compiling module OR2X1_HVT
+-- Compiling module OR2X2_HVT
+-- Compiling module OR2X4_HVT
+-- Compiling module OR3X1_HVT
+-- Compiling module OR3X2_HVT
+-- Compiling module OR3X4_HVT
+-- Compiling module OR4X1_HVT
+-- Compiling module OR4X2_HVT
+-- Compiling module OR4X4_HVT
+-- Compiling module PGX1_HVT
+-- Compiling module PGX2_HVT
+-- Compiling module PGX4_HVT
+-- Compiling module PMT1_HVT
+-- Compiling module PMT2_HVT
+-- Compiling module PMT3_HVT
+-- Compiling module RDFFARX1_HVT
+-- Compiling module RDFFARX2_HVT
+-- Compiling module RDFFNARX1_HVT
+-- Compiling module RDFFNARX2_HVT
+-- Compiling module RSDFFARX1_HVT
+-- Compiling module RSDFFARX2_HVT
+-- Compiling module RSDFFNARX1_HVT
+-- Compiling module RSDFFNARX2_HVT
+-- Compiling module RDFFNX1_HVT
+-- Compiling module RDFFNX2_HVT
+-- Compiling module RDFFX1_HVT
+-- Compiling module RDFFX2_HVT
+-- Compiling module RSDFFNX1_HVT
+-- Compiling module RSDFFNX2_HVT
+-- Compiling module RSDFFX1_HVT
+-- Compiling module RSDFFX2_HVT
+-- Compiling module SDFFARX1_HVT
+-- Compiling module SDFFARX2_HVT
+-- Compiling module SDFFASRSX1_HVT
+-- Compiling module SDFFASRSX2_HVT
+-- Compiling module SDFFASRX1_HVT
+-- Compiling module SDFFASRX2_HVT
+-- Compiling module SDFFASX1_HVT
+-- Compiling module SDFFASX2_HVT
+-- Compiling module SDFFNARX1_HVT
+-- Compiling module SDFFNARX2_HVT
+-- Compiling module SDFFNASRX1_HVT
+-- Compiling module SDFFNASRX2_HVT
+-- Compiling module SDFFNASX1_HVT
+-- Compiling module SDFFNASX2_HVT
+-- Compiling module SDFFNX1_HVT
+-- Compiling module SDFFNX2_HVT
+-- Compiling module SDFFSSRX1_HVT
+-- Compiling module SDFFSSRX2_HVT
+-- Compiling module SDFFX1_HVT
+-- Compiling module SDFFX2_HVT
+-- Compiling module SHFILL2_HVT
+-- Compiling module SHFILL3_HVT
+-- Compiling module SHFILL1_HVT
+-- Compiling module SHFILL64_HVT
+-- Compiling module SHFILL128_HVT
+-- Compiling module TIEH_HVT
+-- Compiling module TIEL_HVT
+-- Compiling module TNBUFFX16_HVT
+-- Compiling module TNBUFFX1_HVT
+-- Compiling module TNBUFFX2_HVT
+-- Compiling module TNBUFFX32_HVT
+-- Compiling module TNBUFFX4_HVT
+-- Compiling module TNBUFFX8_HVT
+-- Compiling module XNOR2X1_HVT
+-- Compiling module XNOR2X2_HVT
+-- Compiling module XNOR3X1_HVT
+-- Compiling module XNOR3X2_HVT
+-- Compiling module XOR2X1_HVT
+-- Compiling module XOR2X2_HVT
+-- Compiling module XOR3X1_HVT
+-- Compiling module XOR3X2_HVT
+-- Compiling module RDFFNSRASX1_HVT
+-- Compiling module RDFFNSRASX2_HVT
+-- Compiling module RDFFSRARX1_HVT
+-- Compiling module RDFFSRARX2_HVT
+-- Compiling module RDFFSRASRX1_HVT
+-- Compiling module RDFFSRASRX2_HVT
+-- Compiling module RDFFSRASX1_HVT
+-- Compiling module RDFFSRASX2_HVT
+-- Compiling module RSDFFNSRARX1_HVT
+-- Compiling module RSDFFNSRARX2_HVT
+-- Compiling module RSDFFNSRASRX1_HVT
+-- Compiling module RSDFFNSRASRX2_HVT
+-- Compiling module RSDFFNSRASRNX1_HVT
+-- Compiling module RSDFFNSRASRNX2_HVT
+-- Compiling module RSDFFNSRASRQX1_HVT
+-- Compiling module RSDFFNSRASRQX2_HVT
+-- Compiling module RSDFFSRARX1_HVT
+-- Compiling module RSDFFSRARX2_HVT
+-- Compiling module RSDFFSRASRX1_HVT
+-- Compiling module RSDFFSRASRX2_HVT
+-- Compiling module RDFFNSRARX1_HVT
+-- Compiling module RDFFNSRARX2_HVT
+-- Compiling module RDFFNSRASRQX1_HVT
+-- Compiling module RDFFNSRASRQX2_HVT
+-- Compiling module RDFFNSRASRNX1_HVT
+-- Compiling module RDFFNSRASRNX2_HVT
+-- Compiling module RDFFNSRASRX1_HVT
+-- Compiling module RDFFNSRASRX2_HVT
+-- Compiling module RDFFNSRX1_HVT
+-- Compiling module RDFFNSRX2_HVT
+-- Compiling module RDFFSRSSRX1_HVT
+-- Compiling module RDFFSRSSRX2_HVT
+-- Compiling module RDFFSRX1_HVT
+-- Compiling module RDFFSRX2_HVT
+-- Compiling module RSDFFNSRASX1_HVT
+-- Compiling module RSDFFNSRASX2_HVT
+-- Compiling module RSDFFNSRX1_HVT
+-- Compiling module RSDFFNSRX2_HVT
+-- Compiling module RSDFFSRASX1_HVT
+-- Compiling module RSDFFSRASX2_HVT
+-- Compiling module RSDFFSRSSRX1_HVT
+-- Compiling module RSDFFSRSSRX2_HVT
+-- Compiling module RSDFFSRX1_HVT
+-- Compiling module RSDFFSRX2_HVT
+-- Compiling UDP saed32_xbuf_lvt
+-- Compiling UDP saed32_mux_lvt
+-- Compiling UDP saed32_dff_pos_lvt
+-- Compiling UDP saed32_dff_neg_lvt
+-- Compiling UDP saed32_dla_high_lvt
+-- Compiling UDP saed32_dla_low_lvt
+
+Top level modules:
+	AND2X1_HVT
+	AND2X2_HVT
+	AND2X4_HVT
+	AND3X1_HVT
+	AND3X2_HVT
+	AND3X4_HVT
+	AND4X1_HVT
+	AND4X2_HVT
+	AND4X4_HVT
+	ANTENNA_HVT
+	AO21X1_HVT
+	AO21X2_HVT
+	AO221X1_HVT
+	AO221X2_HVT
+	AO222X1_HVT
+	AO222X2_HVT
+	AO22X1_HVT
+	AO22X2_HVT
+	AOBUFX1_HVT
+	AOBUFX2_HVT
+	AOBUFX4_HVT
+	AODFFARX1_HVT
+	AODFFARX2_HVT
+	AODFFNARX1_HVT
+	AODFFNARX2_HVT
+	AOI21X1_HVT
+	AOI21X2_HVT
+	AOI221X1_HVT
+	AOI221X2_HVT
+	AOI222X1_HVT
+	AOI222X2_HVT
+	AOI22X1_HVT
+	AOI22X2_HVT
+	AOINVX1_HVT
+	AOINVX2_HVT
+	AOINVX4_HVT
+	BSLEX1_HVT
+	BSLEX2_HVT
+	BSLEX4_HVT
+	BUSKP_HVT
+	CGLNPRX2_HVT
+	CGLNPRX8_HVT
+	CGLNPSX16_HVT
+	CGLNPSX2_HVT
+	CGLNPSX4_HVT
+	CGLNPSX8_HVT
+	CGLPPRX2_HVT
+	CGLPPRX8_HVT
+	CGLPPSX16_HVT
+	CGLPPSX2_HVT
+	CGLPPSX4_HVT
+	CGLPPSX8_HVT
+	CLOAD1_HVT
+	DCAP_HVT
+	DEC24X1_HVT
+	DEC24X2_HVT
+	DELLN1X2_HVT
+	DELLN2X2_HVT
+	DELLN3X2_HVT
+	DFFARX1_HVT
+	DFFARX2_HVT
+	DFFASRX1_HVT
+	DFFASRX2_HVT
+	DFFASX1_HVT
+	DFFASX2_HVT
+	DFFNARX1_HVT
+	DFFNARX2_HVT
+	DFFNASRNX1_HVT
+	DFFNASRNX2_HVT
+	DFFNASRQX1_HVT
+	DFFNASRQX2_HVT
+	DFFNASRX1_HVT
+	DFFNASRX2_HVT
+	DFFNASX1_HVT
+	DFFNASX2_HVT
+	DFFNX1_HVT
+	DFFNX2_HVT
+	DFFSSRX1_HVT
+	DFFSSRX2_HVT
+	DFFX1_HVT
+	DFFX2_HVT
+	DHFILLH2_HVT
+	DHFILLHLHLS11_HVT
+	DHFILLHL2_HVT
+	FADDX1_HVT
+	FADDX2_HVT
+	HADDX1_HVT
+	HADDX2_HVT
+	FOOT2X16_HVT
+	FOOT2X2_HVT
+	FOOT2X32_HVT
+	FOOT2X4_HVT
+	FOOT2X8_HVT
+	FOOTX16_HVT
+	FOOTX2_HVT
+	FOOTX32_HVT
+	FOOTX4_HVT
+	FOOTX8_HVT
+	HEAD2X16_HVT
+	HEAD2X2_HVT
+	HEAD2X32_HVT
+	HEAD2X4_HVT
+	HEAD2X8_HVT
+	HEADX16_HVT
+	HEADX2_HVT
+	HEADX32_HVT
+	HEADX4_HVT
+	HEADX8_HVT
+	IBUFFX16_HVT
+	IBUFFX2_HVT
+	IBUFFX32_HVT
+	IBUFFX4_HVT
+	IBUFFX8_HVT
+	INVX0_HVT
+	INVX16_HVT
+	INVX1_HVT
+	INVX2_HVT
+	INVX32_HVT
+	INVX4_HVT
+	INVX8_HVT
+	ISOLANDX1_HVT
+	ISOLANDX2_HVT
+	ISOLANDX4_HVT
+	ISOLANDX8_HVT
+	ISOLORX1_HVT
+	ISOLORX2_HVT
+	ISOLORX4_HVT
+	ISOLORX8_HVT
+	ISOLANDAOX1_HVT
+	ISOLANDAOX2_HVT
+	ISOLANDAOX4_HVT
+	ISOLANDAOX8_HVT
+	ISOLORAOX1_HVT
+	ISOLORAOX2_HVT
+	ISOLORAOX4_HVT
+	ISOLORAOX8_HVT
+	LARX1_HVT
+	LARX2_HVT
+	LASRNX1_HVT
+	LASRNX2_HVT
+	LASRQX1_HVT
+	LASRQX2_HVT
+	LASRX1_HVT
+	LASRX2_HVT
+	LASX1_HVT
+	LASX2_HVT
+	LATCHX1_HVT
+	LATCHX2_HVT
+	LNANDX1_HVT
+	LNANDX2_HVT
+	LSDNENX1_HVT
+	LSDNENX2_HVT
+	LSDNENX4_HVT
+	LSDNENX8_HVT
+	LSDNENCLX1_HVT
+	LSDNENCLX2_HVT
+	LSDNENCLX4_HVT
+	LSDNENCLX8_HVT
+	LSDNENCLSSX1_HVT
+	LSDNENCLSSX2_HVT
+	LSDNENCLSSX4_HVT
+	LSDNENCLSSX8_HVT
+	LSDNENSSX1_HVT
+	LSDNENSSX2_HVT
+	LSDNENSSX4_HVT
+	LSDNENSSX8_HVT
+	LSDNSSX1_HVT
+	LSDNSSX2_HVT
+	LSDNSSX4_HVT
+	LSDNSSX8_HVT
+	LSDNX1_HVT
+	LSDNX2_HVT
+	LSDNX4_HVT
+	LSDNX8_HVT
+	LSUPENX1_HVT
+	LSUPENX2_HVT
+	LSUPENX4_HVT
+	LSUPENX8_HVT
+	LSUPENCLX1_HVT
+	LSUPENCLX2_HVT
+	LSUPENCLX4_HVT
+	LSUPENCLX8_HVT
+	LSUPX1_HVT
+	LSUPX2_HVT
+	LSUPX4_HVT
+	LSUPX8_HVT
+	MUX21X1_HVT
+	MUX21X2_HVT
+	MUX41X1_HVT
+	MUX41X2_HVT
+	NAND2X0_HVT
+	NAND2X1_HVT
+	NAND2X2_HVT
+	NAND2X4_HVT
+	NAND3X0_HVT
+	NAND3X1_HVT
+	NAND3X2_HVT
+	NAND3X4_HVT
+	NAND4X0_HVT
+	NAND4X1_HVT
+	NBUFFX16_HVT
+	NBUFFX2_HVT
+	NBUFFX32_HVT
+	NBUFFX4_HVT
+	NBUFFX8_HVT
+	NMT1_HVT
+	NMT2_HVT
+	NMT3_HVT
+	NOR2X0_HVT
+	NOR2X1_HVT
+	NOR2X2_HVT
+	NOR2X4_HVT
+	NOR3X0_HVT
+	NOR3X1_HVT
+	NOR3X2_HVT
+	NOR3X4_HVT
+	NOR4X0_HVT
+	NOR4X1_HVT
+	OA21X1_HVT
+	OA21X2_HVT
+	OA221X1_HVT
+	OA221X2_HVT
+	OA222X1_HVT
+	OA222X2_HVT
+	OA22X1_HVT
+	OA22X2_HVT
+	OAI21X1_HVT
+	OAI21X2_HVT
+	OAI221X1_HVT
+	OAI221X2_HVT
+	OAI222X1_HVT
+	OAI222X2_HVT
+	OAI22X1_HVT
+	OAI22X2_HVT
+	OR2X1_HVT
+	OR2X2_HVT
+	OR2X4_HVT
+	OR3X1_HVT
+	OR3X2_HVT
+	OR3X4_HVT
+	OR4X1_HVT
+	OR4X2_HVT
+	OR4X4_HVT
+	PGX1_HVT
+	PGX2_HVT
+	PGX4_HVT
+	PMT1_HVT
+	PMT2_HVT
+	PMT3_HVT
+	RDFFARX1_HVT
+	RDFFARX2_HVT
+	RDFFNARX1_HVT
+	RDFFNARX2_HVT
+	RSDFFARX1_HVT
+	RSDFFARX2_HVT
+	RSDFFNARX1_HVT
+	RSDFFNARX2_HVT
+	RDFFNX1_HVT
+	RDFFNX2_HVT
+	RDFFX1_HVT
+	RDFFX2_HVT
+	RSDFFNX1_HVT
+	RSDFFNX2_HVT
+	RSDFFX1_HVT
+	RSDFFX2_HVT
+	SDFFARX1_HVT
+	SDFFARX2_HVT
+	SDFFASRSX1_HVT
+	SDFFASRSX2_HVT
+	SDFFASRX1_HVT
+	SDFFASRX2_HVT
+	SDFFASX1_HVT
+	SDFFASX2_HVT
+	SDFFNARX1_HVT
+	SDFFNARX2_HVT
+	SDFFNASRX1_HVT
+	SDFFNASRX2_HVT
+	SDFFNASX1_HVT
+	SDFFNASX2_HVT
+	SDFFNX1_HVT
+	SDFFNX2_HVT
+	SDFFSSRX1_HVT
+	SDFFSSRX2_HVT
+	SDFFX1_HVT
+	SDFFX2_HVT
+	SHFILL2_HVT
+	SHFILL3_HVT
+	SHFILL1_HVT
+	SHFILL64_HVT
+	SHFILL128_HVT
+	TIEH_HVT
+	TIEL_HVT
+	TNBUFFX16_HVT
+	TNBUFFX1_HVT
+	TNBUFFX2_HVT
+	TNBUFFX32_HVT
+	TNBUFFX4_HVT
+	TNBUFFX8_HVT
+	XNOR2X1_HVT
+	XNOR2X2_HVT
+	XNOR3X1_HVT
+	XNOR3X2_HVT
+	XOR2X1_HVT
+	XOR2X2_HVT
+	XOR3X1_HVT
+	XOR3X2_HVT
+	RDFFNSRASX1_HVT
+	RDFFNSRASX2_HVT
+	RDFFSRARX1_HVT
+	RDFFSRARX2_HVT
+	RDFFSRASRX1_HVT
+	RDFFSRASRX2_HVT
+	RDFFSRASX1_HVT
+	RDFFSRASX2_HVT
+	RSDFFNSRARX1_HVT
+	RSDFFNSRARX2_HVT
+	RSDFFNSRASRX1_HVT
+	RSDFFNSRASRX2_HVT
+	RSDFFNSRASRNX1_HVT
+	RSDFFNSRASRNX2_HVT
+	RSDFFNSRASRQX1_HVT
+	RSDFFNSRASRQX2_HVT
+	RSDFFSRARX1_HVT
+	RSDFFSRARX2_HVT
+	RSDFFSRASRX1_HVT
+	RSDFFSRASRX2_HVT
+	RDFFNSRARX1_HVT
+	RDFFNSRARX2_HVT
+	RDFFNSRASRQX1_HVT
+	RDFFNSRASRQX2_HVT
+	RDFFNSRASRNX1_HVT
+	RDFFNSRASRNX2_HVT
+	RDFFNSRASRX1_HVT
+	RDFFNSRASRX2_HVT
+	RDFFNSRX1_HVT
+	RDFFNSRX2_HVT
+	RDFFSRSSRX1_HVT
+	RDFFSRSSRX2_HVT
+	RDFFSRX1_HVT
+	RDFFSRX2_HVT
+	RSDFFNSRASX1_HVT
+	RSDFFNSRASX2_HVT
+	RSDFFNSRX1_HVT
+	RSDFFNSRX2_HVT
+	RSDFFSRASX1_HVT
+	RSDFFSRASX2_HVT
+	RSDFFSRSSRX1_HVT
+	RSDFFSRSSRX2_HVT
+	RSDFFSRX1_HVT
+	RSDFFSRX2_HVT
+
+} {} {}} /home/hoangt/RESEARCH/EDABK/WORK/FFTAccelerator/design_flow/src/fmem.v {1 {vlog -work work -vopt /home/hoangt/RESEARCH/EDABK/WORK/FFTAccelerator/design_flow/src/fmem.v
+QuestaSim-64 vlog 10.2b Compiler 2013.05 May 16 2013
+-- Compiling module fmem
+
+Top level modules:
+	fmem
+
+} {} {}}

@@ -1,0 +1,9 @@
+`define 	      	MODELSIM                   1
+ //`define            VCS                        	1
+ `define              SIM_FFT4     	1
+ `define              TV_INFILE                  	"input_fft4.txt"
+ `define              TV_OUTFILE                 "output_fft4.txt"
+ `define              VCD_FILE                     "check.vcd"
+ `define              GEN_VCD                     0
+ `define              CLOCK_PERIOD           	3.3
+ 
